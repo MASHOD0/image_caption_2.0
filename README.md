@@ -1,8 +1,18 @@
-# listed_image_caption
+# listed_image_caption_2.0
 worksample for listed.inc
+## What's New ?
+- Breakaway from the old simple descriptions to making catchy captions for those instagram worthy posts 
+### How did I do it ?
+![image](https://user-images.githubusercontent.com/63853764/226140082-8a04cf67-c5d5-4a12-b058-bf8fff41c603.png)
+- Used `Davinci-003` which is OpenAIs Large Language model based on the GPT-3.5 model architecture.
+### How Is this better ?
+- Organic looking instagram or linkedin images
+- Faster than than the previous version
+
 ## Problem Statement
 - Create an AI tool that creates captions based on the image provided by the user. Should also have the option to generate multiple captions based on the image.
 - Provide an interface where the user can come and upload images and get AI generated captions.
+
 ## Solution
 ### Pre-Processing
 - Used the [Blip processor](https://huggingface.co/docs/transformers/v4.26.1/en/model_doc/blip#transformers.BlipProcessor), for processing the image.
