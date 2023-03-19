@@ -9,6 +9,10 @@ worksample for listed.inc
 - Organic looking captions for instagram or linkedin images
     -   before : `this is a picture of a soccer player running with a soccer ball in his hand`
     -   after : `If you're not sweating, you're not working hard enough!`
+- Customized captions for each social media platform to get the right impact
+    - Instagram: `If you're not sweating, you're not working hard enough!`
+    - LinkedIn: `There's nothing like a game of soccer to get the blood pumping!`
+    - Twitter: `He's running with a soccer ball… and he's not looking back!`
 - Faster than than the previous version roughly **7.2%** faster than the previous version 
 - old outputs: 
 ```
