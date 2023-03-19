@@ -1,11 +1,11 @@
 # listed_image_caption_2.0
 worksample for listed.inc
 ## What's New ?
-- Breakaway from the old simple descriptions to making catchy captions for those instagram worthy posts 
+- Breakaway from the old simple descriptions to generating catchy captions for those instagram worthy posts 
 ### How did I do it ?
 ![image](https://user-images.githubusercontent.com/63853764/226140082-8a04cf67-c5d5-4a12-b058-bf8fff41c603.png)
 - Used `Davinci-003` which is OpenAIs Large Language model based on the GPT-3.5 model architecture.
-### How Is this better ?
+### How is this better ?
 - Organic looking captions for instagram or linkedin images
     -   before : `this is a picture of a soccer player running with a soccer ball in his hand`
     -   after : `If you're not sweating, you're not working hard enough!`
