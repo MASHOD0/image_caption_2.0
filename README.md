@@ -7,8 +7,8 @@ worksample for listed.inc
 - Used `Davinci-003` which is OpenAIs Large Language model based on the GPT-3.5 model architecture.
 ### How Is this better ?
 - Organic looking captions for instagram or linkedin images
--   before : `this is a picture of a soccer player running with a soccer ball in his hand`
--   after : `If you're not sweating, you're not working hard enough!`
+    -   before : `this is a picture of a soccer player running with a soccer ball in his hand`
+    -   after : `If you're not sweating, you're not working hard enough!`
 - Faster than than the previous version roughly **7.2%** faster than the previous version 
 - old outputs: 
 ```
