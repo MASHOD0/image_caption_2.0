@@ -6,8 +6,64 @@ worksample for listed.inc
 ![image](https://user-images.githubusercontent.com/63853764/226140082-8a04cf67-c5d5-4a12-b058-bf8fff41c603.png)
 - Used `Davinci-003` which is OpenAIs Large Language model based on the GPT-3.5 model architecture.
 ### How Is this better ?
-- Organic looking instagram or linkedin images
-- Faster than than the previous version
+- Organic looking captions for instagram or linkedin images
+-   before : `this is a picture of a soccer player running with a soccer ball in his hand`
+-   after : `If you're not sweating, you're not working hard enough!`
+- Faster than than the previous version roughly **7.2%** faster than the previous version 
+- old outputs: 
+```
+filename : Image1.png
+this is a picture of a soccer player running with a soccer ball in his hand
+there is a man that is running with a soccer ball in his hand
+this is a picture of a soccer player running with the ball in his hand
+this is a picture of a soccer player running with a soccer ball in front of him
+there is a man that is running with a soccer ball in front of him
+filename : Image2.png
+there are two horses that are standing next to each other in a field
+there are two horses that are standing next to each other in the middle of a field
+there are two horses that are standing next to each other in the middle of the field
+there are two horses that are standing next to each other in the field
+there are two horses that are standing next to each other on a field
+filename : Image3.png
+this is an image of a group of people who are looking at each other
+this is an image of a group of four people who are looking at each other
+this is an image of a group of people who are looking at the camera
+this is an image of a group of four people who are looking at the same time of the day
+this is an image of a group of four people who are looking at the same time of day
+execution time: 80.84076929092407
+```
+- new outputs
+```
+description: ['there is a man that is running with a soccer ball in his hand']
+platform: instagram
+captions: 
+1. Just another day on the pitch!
+2. Running with the ball – gotta love soccer!
+3. Never give up on your dreams!
+4. If you're not sweating, you're not working hard enough!
+5. Soccer is my life!
+
+description: ['there are two horses that are standing next to each other in a field']
+platform: instagram
+captions: 
+
+1. "Best friends forever!"
+2. "There's no place like home."
+3. "A horse is a horse, of course, of course."
+4. "I'm a little horse of a different color."
+5. "We're two of a kind!"
+
+description: ['this is an image of a group of people who are looking at each other']
+platform: instagram
+captions: 
+1. Connection is key.
+2. United we stand.
+3. strength in numbers
+4. A team that communicate well is a team that succeeds.
+5. Building relationships is the foundation of any successful venture.
+total tokens: 171
+execution time: 75.04193019866943
+```
 
 ## Problem Statement
 - Create an AI tool that creates captions based on the image provided by the user. Should also have the option to generate multiple captions based on the image.
