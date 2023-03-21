@@ -1,5 +1,5 @@
-# listed_image_caption_2.0
-worksample for listed.inc
+# Image caption 2.0
+
 ## What's New ?
 - Breakaway from the old simple descriptions to generating catchy captions for those instagram worthy posts 
 ### How did I do it ?
